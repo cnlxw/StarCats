@@ -3179,7 +3179,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Grenade: Allows you to blow up all the enemies on screen!'
+  m_Text: 'Nuke: Allows you to blow up all the enemies on screen!'
 --- !u!222 &1188371277
 CanvasRenderer:
   m_ObjectHideFlags: 0

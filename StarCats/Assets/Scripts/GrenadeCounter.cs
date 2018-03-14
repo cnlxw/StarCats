@@ -34,7 +34,7 @@ public class GrenadeCounter : MonoBehaviour {
 
 	public static void UpdateGrenade()
 	{
-		_Grenade.text = "Grenades: " + gCount;
+		_Grenade.text = "Nukes: " + gCount;
 	}
 
 }
