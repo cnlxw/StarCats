@@ -5,6 +5,8 @@ using UnityEngine;
 public class Coin : MonoBehaviour {
 	
 	private float speed = 0.025f;
+	
+	public GameObject whiteParticleGO;
 
 	private Vector3 direction;
 	private float distance;
@@ -30,7 +32,7 @@ public class Coin : MonoBehaviour {
 		
 		if (other.gameObject.CompareTag("Player"))
 		{
-
+			playParticle();
 			Destroy(gameObject);
 			ScoreManager.AddScore(10);
 	
@@ -38,5 +40,11 @@ public class Coin : MonoBehaviour {
 
 		
 		
+	}
+	
+	void playParticle()
+	{
+		GameObject explosion = (GameObject) Instantiate(whiteParticleGO);
+		explosion.transform.position = transform.position;
 	}
 }

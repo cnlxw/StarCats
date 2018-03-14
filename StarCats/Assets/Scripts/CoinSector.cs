@@ -8,6 +8,8 @@ public class CoinSector : MonoBehaviour {
 
 	private Vector3 direction;
 	private float distance;
+	
+	public GameObject whiteParticleGO;
 
 	// Use this for initialization
 	void Start () {
@@ -30,7 +32,7 @@ public class CoinSector : MonoBehaviour {
 		
 		if (other.gameObject.CompareTag("Player"))
 		{
-
+			playParticle();
 			Destroy(gameObject);
 			ScoreManager.AddScore(10);
 	
@@ -38,5 +40,11 @@ public class CoinSector : MonoBehaviour {
 
 		
 		
+	}
+	
+	void playParticle()
+	{
+		GameObject explosion = (GameObject) Instantiate(whiteParticleGO);
+		explosion.transform.position = transform.position;
 	}
 }

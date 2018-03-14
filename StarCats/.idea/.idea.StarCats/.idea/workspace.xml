@@ -12,11 +12,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PlanetA.cs" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PlanetA.cs" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlanetA.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+            <state relative-caret-position="480">
+              <caret line="34" column="5" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
               <folding>
                 <marker date="1521045219045" expanded="false" signature="6:78" ph="..." />
                 <marker date="1521045219045" expanded="true" signature="116:576" ph="{...}" />
@@ -29,22 +29,39 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Enemy.cs" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs">
+      <file leaf-file-name="CoinSector.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/CoinSector.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
+            <state relative-caret-position="447">
+              <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
               <folding>
-                <marker date="1520812790000" expanded="false" signature="6:78" ph="..." />
-                <marker date="1520812790000" expanded="true" signature="114:1158" ph="{...}" />
-                <marker date="1520812790000" expanded="true" signature="233:865" ph="{...}" />
-                <marker date="1520812790000" expanded="true" signature="317:438" ph="{...}" />
-                <marker date="1520812790000" expanded="true" signature="397:434" ph="{...}" />
-                <marker date="1520812790000" expanded="true" signature="482:571" ph="{...}" />
-                <marker date="1520812790000" expanded="true" signature="619:734" ph="{...}" />
-                <marker date="1520812790000" expanded="true" signature="781:862" ph="{...}" />
-                <marker date="1520812790000" expanded="true" signature="888:1011" ph="{...}" />
-                <marker date="1520812790000" expanded="true" signature="1035:1153" ph="{...}" />
+                <marker date="1521058136079" expanded="false" signature="6:78" ph="..." />
+                <marker date="1521058136079" expanded="true" signature="120:1083" ph="{...}" />
+                <marker date="1521058136079" expanded="true" signature="294:483" ph="{...}" />
+                <marker date="1521058136079" expanded="true" signature="543:736" ph="{...}" />
+                <marker date="1521058136079" expanded="true" signature="701:733" ph="{...}" />
+                <marker date="1521058136079" expanded="true" signature="787:931" ph="{...}" />
+                <marker date="1521058136079" expanded="true" signature="838:921" ph="{...}" />
+                <marker date="1521058136079" expanded="true" signature="954:1081" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Coin.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Coin.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="387">
+              <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+              <folding>
+                <marker date="1521058934223" expanded="false" signature="6:78" ph="..." />
+                <marker date="1521058934223" expanded="true" signature="114:1062" ph="{...}" />
+                <marker date="1521058934223" expanded="true" signature="289:466" ph="{...}" />
+                <marker date="1521058934223" expanded="true" signature="526:715" ph="{...}" />
+                <marker date="1521058934223" expanded="true" signature="680:712" ph="{...}" />
+                <marker date="1521058934223" expanded="true" signature="766:910" ph="{...}" />
+                <marker date="1521058934223" expanded="true" signature="817:900" ph="{...}" />
+                <marker date="1521058934223" expanded="true" signature="933:1060" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -170,8 +187,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/DoublePoints3.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBoost2.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/HealthBoost3.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Coin.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CoinSector.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/FlipEnemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Enemy.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/SlowDownEnemy.cs" />
@@ -198,6 +213,8 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/ReminderManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GrenadeCounter.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/PlanetA.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoinSector.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Coin.cs" />
       </list>
     </option>
   </component>
@@ -412,12 +429,12 @@
       <workItem from="1520889393686" duration="3717000" />
       <workItem from="1520893445003" duration="703000" />
       <workItem from="1521011218737" duration="615000" />
-      <workItem from="1521044775076" duration="416000" />
+      <workItem from="1521044775076" duration="926000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="157301000" />
+    <option name="totallyTimeSpent" value="157811000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -531,20 +548,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Coin.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CoinSector.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="18" column="14" lean-forward="false" selection-start-line="18" selection-start-column="14" selection-end-line="18" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -840,7 +843,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Enemy.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
+        <state relative-caret-position="675">
           <caret line="47" column="5" lean-forward="false" selection-start-line="47" selection-start-column="5" selection-end-line="47" selection-end-column="5" />
           <folding>
             <marker date="1520812790000" expanded="false" signature="6:78" ph="..." />
@@ -859,8 +862,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/PlanetA.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        <state relative-caret-position="480">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="30" selection-start-column="4" selection-end-line="34" selection-end-column="5" />
           <folding>
             <marker date="1521045219045" expanded="false" signature="6:78" ph="..." />
             <marker date="1521045219045" expanded="true" signature="116:576" ph="{...}" />
@@ -868,6 +871,40 @@
             <marker date="1521045219045" expanded="true" signature="257:339" ph="{...}" />
             <marker date="1521045219045" expanded="true" signature="386:418" ph="{...}" />
             <marker date="1521045219045" expanded="true" signature="447:574" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/CoinSector.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="447">
+          <caret line="44" column="4" lean-forward="false" selection-start-line="44" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
+          <folding>
+            <marker date="1521058136079" expanded="false" signature="6:78" ph="..." />
+            <marker date="1521058136079" expanded="true" signature="120:1083" ph="{...}" />
+            <marker date="1521058136079" expanded="true" signature="294:483" ph="{...}" />
+            <marker date="1521058136079" expanded="true" signature="543:736" ph="{...}" />
+            <marker date="1521058136079" expanded="true" signature="701:733" ph="{...}" />
+            <marker date="1521058136079" expanded="true" signature="787:931" ph="{...}" />
+            <marker date="1521058136079" expanded="true" signature="838:921" ph="{...}" />
+            <marker date="1521058136079" expanded="true" signature="954:1081" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Coin.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="387">
+          <caret line="34" column="27" lean-forward="false" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+          <folding>
+            <marker date="1521058934223" expanded="false" signature="6:78" ph="..." />
+            <marker date="1521058934223" expanded="true" signature="114:1062" ph="{...}" />
+            <marker date="1521058934223" expanded="true" signature="289:466" ph="{...}" />
+            <marker date="1521058934223" expanded="true" signature="526:715" ph="{...}" />
+            <marker date="1521058934223" expanded="true" signature="680:712" ph="{...}" />
+            <marker date="1521058934223" expanded="true" signature="766:910" ph="{...}" />
+            <marker date="1521058934223" expanded="true" signature="817:900" ph="{...}" />
+            <marker date="1521058934223" expanded="true" signature="933:1060" ph="{...}" />
           </folding>
         </state>
       </provider>
