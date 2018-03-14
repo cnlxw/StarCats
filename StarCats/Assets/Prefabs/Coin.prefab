@@ -99,6 +99,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: acd65594f90a84acc8c3012dd180b67d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  whiteParticleGO: {fileID: 1242989191409198, guid: 85cf61d67688e47dba0b92e4c0052271,
+    type: 2}
 --- !u!212 &212830832963954514
 SpriteRenderer:
   m_ObjectHideFlags: 1
