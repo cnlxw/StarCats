@@ -18,8 +18,7 @@ Left Trigger(LT): Use Nuke
 Start Button: Pause game
 
 Objective:
-Destroy the enemies before they hit the player or the planet. Collect particles to gain points and special 
-power ups!!
+Destroy the enemies before they hit the player or the planet. Collect particles to gain points and special power ups!!
 
 Team Members:
 Nikit Bobba
